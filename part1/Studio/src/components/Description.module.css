@@ -2,8 +2,11 @@
     display: flex;
     justify-content: space-evenly;
     
+
  }
  
  .imageUpdates {
     object-fit: contain;
  }
+
+
