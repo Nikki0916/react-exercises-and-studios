@@ -1,10 +1,10 @@
 .movieText {
-   color: purple;
+   color: rgb(21, 5, 233);
    font-size: 1.3vw;
-   text-align: left;
+   text-align: center;
    background-color: #FFB6C1;
 }
 
 .movieHeading {
-   text-align: left;
+   text-align: center;
 }

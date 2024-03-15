@@ -3,7 +3,7 @@ import classes from './ChoresList.module.css';
 
 class ChoresList extends React.Component {
    render() {
-      const chores = ['Empty dishwasher', 'Complete prep work', 'Buy groceries'];
+      const chores = ['Empty dishwasher', 'Do Laundry', 'Buy groceries'];
 
       return(
          <div class="chores">
