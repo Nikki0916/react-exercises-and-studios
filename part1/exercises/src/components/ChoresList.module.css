@@ -1,7 +1,12 @@
 .choresText {
-   color: black;
+   font-family: 'london';
+   font-size: 1.6vw;
+   color: red;
+   font-style: italic;
+   text-align: left;
 }
 
 .choresHeading {
-   color: black;
+   text-decoration: underline;
+   text-align: left;
 }
