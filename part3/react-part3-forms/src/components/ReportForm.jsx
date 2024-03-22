@@ -8,6 +8,7 @@ export default function ReportForm() {
    }
 
    const handleSubmit = (event) => {
+      let
       alert("Form submitted");
       event.preventDefault();
    }

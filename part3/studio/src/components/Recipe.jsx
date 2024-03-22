@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://www.spendwithpennies.com/author/holly/";
+   let authorPhoto = "https://secure.gravatar.com/avatar/fa4bdeb9d2aa6450536af2064fac2481?s=64&r=g";
+   let authorName = "Holly";
 
    return (
       <div>
@@ -17,7 +17,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ["Cream Cheese", "Ricotta Cheese", "Vanilla extract", "Chocolate Chips", "Powdered sugar", ];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -36,8 +36,8 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1></h1>
-            <p></p>
+            <h1>A Delicious Dessert Dip</h1>
+            <p>A delicious blend of cream cheese, ricotta cheese, and chocolate chips make the perfect dippable dessert that tastes just like a cannoli!</p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
@@ -49,7 +49,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://www.spendwithpennies.com/wp-content/uploads/2023/11/Cannoli-Dip-SpendWithPennies-6-800x1200.jpg" alt="Photo of cannoli dip with waffle cones" className="imageUpdates"/>
    );
 }
 
